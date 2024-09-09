@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 12px;
+}
+
+.rating {
+    position: relative;   
+    top: -25px;
+}
+
+.rating-2{
+    top:0;
+    border-radius: 30%;
+}
+
+.title {
+    padding: 2px 0;
+    font-weight: bold;
+    text-align: left;
+    margin-right: 12px;
+}
